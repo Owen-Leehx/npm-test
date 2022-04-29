@@ -1,0 +1,19 @@
+{
+  "name": "zhooks",
+  "version": "1.0.0",
+  "description": "react hooks",
+  "main": "index.js",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "ahooks": "^3.3.10",
+    "react": "^17.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}

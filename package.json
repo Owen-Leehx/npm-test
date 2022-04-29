@@ -1,0 +1,41 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "description": "publish npm package",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Owen-Leehx/npm-test.git"
+  },
+  "keywords": [],
+  "author": "owen lee",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "bugs": {
+    "url": "https://github.com/Owen-Leehx/npm-test/issues"
+  },
+  "homepage": "https://github.com/Owen-Leehx/npm-test#readme",
+  "scripts": {
+    "cz": "git-cz",
+    "start": "lerna run start --stream",
+    "build": "lerna run build",
+    "publish:patch": "yarn build && lerna publish patch",
+    "publish:minor": "yarn build && lerna publish minor",
+    "publish:major": "yarn build && lerna publish major",
+    "add:zhooks": "lerna add --scope zhooks"
+  },
+  "devDependencies": {
+    "ahooks": "^3.3.10",
+    "commitizen": "^4.2.4",
+    "eslint": "^8.14.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "lerna": "^4.0.0",
+    "prettier": "^2.6.2",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "typescript": "^4.6.4"
+  }
+}

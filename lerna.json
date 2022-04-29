@@ -1,0 +1,20 @@
+{
+  "packages": ["packages/*"],
+  "version": "independent",
+  "npmClient": "yarn",
+  "npmClientArgs": ["--production=false"],
+  "useWorkspaces": true,
+  "command": {
+    "bootstrap": {},
+    "version": {
+      "conventionalCommits": true,
+      "includeMergedTags": true
+    },
+    "publish": {
+      "npmClient": "npm",
+      "message": "chore(release): publish",
+      "registry": "https://registry.npmjs.org/"
+    }
+  },
+  "ignoreChanges": ["*.md", ".vscode", "cypress", "e2e", "*.spec.*", "scripts"]
+}
