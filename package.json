@@ -9,7 +9,7 @@
     "url": "git+https://github.com/Owen-Leehx/npm-test.git"
   },
   "keywords": [],
-  "author": "owen lee",
+  "author": "Owen Lee",
   "license": "ISC",
   "workspaces": [
     "packages/*"
