@@ -14,8 +14,16 @@
   "scripts": {
     "build": "tsc"
   },
-  "author": "Owen Lee",
+  "author": "Owen Lee <owenleehx@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Owen-Leehx/npm-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Owen-Leehx/npm-test/issues"
+  },
+  "homepage": "https://github.com/Owen-Leehx/npm-test#readme",
   "peerDependencies": {
     "ahooks": "^3.3.10",
     "react": "^17.0.0"
