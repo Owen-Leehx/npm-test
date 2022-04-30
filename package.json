@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "publish npm package",
   "main": "index.js",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Owen-Leehx/npm-test.git"
@@ -16,7 +15,6 @@
   },
   "homepage": "https://github.com/Owen-Leehx/npm-test#readme",
   "scripts": {
-    "cz": "git-cz",
     "start": "lerna run start --stream",
     "build": "lerna run build",
     "publish:patch": "yarn build && lerna publish patch",
