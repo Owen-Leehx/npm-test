@@ -11,9 +11,6 @@
   "keywords": [],
   "author": "Owen Lee",
   "license": "ISC",
-  "workspaces": [
-    "packages/*"
-  ],
   "bugs": {
     "url": "https://github.com/Owen-Leehx/npm-test/issues"
   },
@@ -25,7 +22,7 @@
     "publish:patch": "yarn build && lerna publish patch",
     "publish:minor": "yarn build && lerna publish minor",
     "publish:major": "yarn build && lerna publish major",
-    "add:zhooks": "lerna add --scope zhooks"
+    "add:leehooks": "lerna add --scope leehooks"
   },
   "devDependencies": {
     "ahooks": "^3.3.10",
