@@ -15,7 +15,7 @@
     "build": "tsc"
   },
   "author": "Owen Lee <owenleehx@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "publishConfig": {
     "registry": "https://registry.npmjs.com/"
   },
@@ -33,5 +33,6 @@
   },
   "devDependencies": {
     "typescript": "^4.6.4"
-  }
+  },
+  "gitHead": "cf8beb8181db75d8bf92c1dbafb68aa8dffd0058"
 }

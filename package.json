@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "Owen Lee",
-  "license": "ISC",
+  "license": "MIT",
   "publishConfig": {
     "registry": "https://registry.npmjs.com/"
   },
