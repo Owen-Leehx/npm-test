@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.7 (2022-04-30)
+
+
+### Features
+
+* update ([ea3a555](https://github.com/Owen-Leehx/npm-test/commit/ea3a555608e727ccc93ddff40560c5a62eb19f29))
+
+
+
+
+
 ## [1.0.6](https://github.com/Owen-Leehx/npm-test/compare/leehooks@1.0.5...leehooks@1.0.6) (2022-04-30)
 
 **Note:** Version bump only for package leehooks
