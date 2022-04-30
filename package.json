@@ -23,7 +23,7 @@
     "publish:patch": "yarn build && lerna publish patch",
     "publish:minor": "yarn build && lerna publish minor",
     "publish:major": "yarn build && lerna publish major",
-    "add:leehooks": "lerna add --scope leehooks"
+    "add:hooks": "lerna add --scope abchooks"
   },
   "devDependencies": {
     "ahooks": "^3.3.10",

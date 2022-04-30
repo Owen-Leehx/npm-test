@@ -1,5 +1,5 @@
 {
-  "name": "@abchooks",
+  "name": "abchooks",
   "version": "1.0.6",
   "description": "react hooks",
   "main": "dist/index.js",
