@@ -10,6 +10,9 @@
   "keywords": [],
   "author": "Owen Lee",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/"
+  },
   "bugs": {
     "url": "https://github.com/Owen-Leehx/npm-test/issues"
   },
