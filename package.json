@@ -1,6 +1,6 @@
 {
   "name": "npm-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "publish npm package",
   "main": "index.js",
   "repository": {
@@ -10,9 +10,6 @@
   "keywords": [],
   "author": "Owen Lee",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com/"
-  },
   "bugs": {
     "url": "https://github.com/Owen-Leehx/npm-test/issues"
   },

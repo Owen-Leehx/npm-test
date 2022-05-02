@@ -16,9 +16,6 @@
   },
   "author": "Owen Lee <owenleehx@gmail.com>",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Owen-Leehx/npm-test.git"
