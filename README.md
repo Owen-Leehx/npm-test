@@ -2,8 +2,6 @@
 publish npm package
 
 
-[在线文档链接](http://121.37.159.50:9009/)
-
 ## usage
 
 ## 使用

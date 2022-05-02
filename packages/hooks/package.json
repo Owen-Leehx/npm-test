@@ -1,7 +1,7 @@
 {
   "name": "abchooks",
   "version": "1.0.11",
-  "description": "react hooks",
+  "description": "react hooks abchooks",
   "main": "dist/index.js",
   "directories": {
     "lib": "dist",
